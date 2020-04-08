@@ -1,10 +1,11 @@
-# It helps in identifying the faces 
+# It helps in identifying the faces that we have trained in the previous program
+
 import cv2, numpy, os 
 size = 4
 haar_file = 'haarcascade_frontalface_default.xml'
 datasets = 'datasets'
 
-# Part 1: Create fisherRecognizer 
+# Part 1: Create the Recogniser used to recognise the faces
 print('Recognizing Face Please Be in sufficient Lights...') 
 
 # Create a list of images and a list of corresponding names 
@@ -29,7 +30,8 @@ for (subdirs, dirs, files) in os.walk(datasets):
 model = cv2.face.LBPHFaceRecognizer_create() 
 model.train(images, lables) 
 
-# Part 2: Use fisherRecognizer on camera stream 
+
+# Part 2: Use the Recognizer on the video obtained from the webcam
 face_cascade = cv2.CascadeClassifier(haar_file) 
 webcam = cv2.VideoCapture(0) 
 while True:
