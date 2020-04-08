@@ -17,3 +17,6 @@ central pixel.
 (iv) Grid Y : the number of cells in the vertical direction.
 The model built is trained with the faces with tag given to them, and later on, the machine is given a test data and machine decides the correct label for it.
 
+And please skip the datasets/rishav folder if you ever download this, contains some embarasing pictures of mine. 
+Peace
+
