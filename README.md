@@ -1,5 +1,5 @@
 # Face-recognition-using-OpenCV
-This is my very first, trivial yet interesting project using python and OpenCV, where I have trained my program to recognise a set of faces that I have trained it to recognise all in real time. It uses the webcam to first record a set of images of a face, trains using those images with the help of harrcascade classifier, and then recognise those trained faces in real-time from the video feed obtained from webcam.
+This is my very first, trivial yet interesting project using python and OpenCV, where I have trained my program to recognise a set of faces all in real time. It uses the webcam to first record a set of images of a face, trains using those images with the help of harrcascade classifier, and then recognise those trained faces in real-time from the video feed obtained from webcam.
 
 How to use it:
 1. You will need to install opencv, and must have a webcam. 
